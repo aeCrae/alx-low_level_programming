@@ -1,8 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
-/* Entry point of program */
-int main(void) /* Entry Point of program */
+/**
+ *This place na so so
+ *
+ *Entry point of program 
+ */
+int main(void)
 {
 	char var_first[55];
 
