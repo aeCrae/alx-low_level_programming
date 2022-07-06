@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main -> This is the entry point of the code
- *
- * Return: success always 0
+ * print_alphabet -> This is the entry point of the code
+ * success always 0
  */
-int main(void){
-	char alphabet;
+void print_alphabet(void)
+{
+	int alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++ ){
-		print_alphabet(alphabet);
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
+		_putchar(alphabet);
 	}
 	_putchar('\n');
-	
 	return (0);
 }
