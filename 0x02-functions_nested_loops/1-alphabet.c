@@ -9,7 +9,7 @@ int main(void){
 	char alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++ ){
-		print_alphabet();
+		print_alphabet(alphabet);
 	}
 	_putchar('\n');
 	
