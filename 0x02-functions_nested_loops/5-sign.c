@@ -7,11 +7,11 @@
  */
 int print_sign(int n)
 {
-	int i;
+	int n;
 
-	if (i < 0)
+	if (n < 0)
 		return (-1);
-	else if (i == 0)
+	else if (n == 0)
 		return (0);
 	else
 		return (1);
