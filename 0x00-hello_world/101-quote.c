@@ -3,7 +3,7 @@
 /**
  * main - the entry point of the program
  *
- * Return: Success  always 0.
+ * Return: Success  always 1.
  */
 int main(void)
 {
@@ -13,5 +13,5 @@ int main(void)
 	fp = fopen("file.txt", "w");
 	fwrite(str, 1, sizeof(str), fp);
 	fclose(fp);
-	return (0);
+	return (1);
 }
