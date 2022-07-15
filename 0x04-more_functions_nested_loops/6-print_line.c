@@ -1,18 +1,19 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_line - prints a striaght line on the
- * terminal
- * @n: the number of times to print
+ * print_line - print astraight line
+ * @n: number of times "_" should be printed
+ * Return: void
  */
+
 void print_line(int n)
 {
-	if (n <= 0)
-		_putchar('\n');
+	int i;
 
-	for (n = 0; n; n++)
-	{
-		_putchar('_');
-	}
+	if (n > 0)
+		for (i = 0; i < n; i++)
+			_putchar('_');
+
 	_putchar('\n');
 }

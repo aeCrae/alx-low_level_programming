@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * Return: Always 0.
+ * main - i want o print aupper letter
+ * Desctiption: lets test with range of capital letter
+ * Return: 1 for capital letter and 0 for other
  */
+
 int main(void)
 {
 	char c;
