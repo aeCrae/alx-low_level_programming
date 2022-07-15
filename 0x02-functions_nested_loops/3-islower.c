@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * _islower -> checks for lower case letters
- * @c: success always 0
- * Return: the argument passed into islower
+ * _islower - I am checking islower
+ * @d : is the variable i wish to test
+ * Return: either 0 or 1
  */
-int _islower(int c)
+
+int _islower(int d)
 {
-	return (c >= 'a' && c <= 'z');
+	return (d >= 96 && d <= 123);
 }

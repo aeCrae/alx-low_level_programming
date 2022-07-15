@@ -1,18 +1,26 @@
 #include "main.h"
+
 /**
- * print_alphabet_x10 -> This function prints th * e alhabets 10 times
+ * print_alphabet_x10 - print a letter from a to z
+ * Descriptin: I am still learning
+ * Return: Always 0 (Success)
  */
+
 void print_alphabet_x10(void)
 {
-	int alphabet;
-	int count;
+	char f;
 
-	for (count = 1; count <= 10; count++)
+	int i  = 0;
+
+	while (i < 10)
 	{
-		for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+		f = 'a';
+		while (f <= 'z')
 		{
-			_putchar(alphabet);
+			_putchar(f);
+			f++;
 		}
 		_putchar('\n');
+		i++;
 	}
 }

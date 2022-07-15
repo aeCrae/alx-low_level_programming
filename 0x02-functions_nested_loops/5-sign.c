@@ -1,18 +1,29 @@
 #include "main.h"
+
 /**
- * print_sign -> a function to tell positive from
- * negative numbers
- * @n: the parameter to be checked
- * Return: values for return check
+ * print_sign -fun time with c programming
+ * @n: omoo wahala
+ * Description: a fun test on the return value
+ * Return: + - 0
  */
 int print_sign(int n)
 {
-	int n;
+	int sign;
 
-	if (n < 0)
-		return (-1);
-	else if (n == 0)
-		return (0);
+	if (n == 0)
+	{
+		sign = 0;
+		_putchar('0');
+	}
+	else if (n > 0)
+	{
+		sign = 1;
+		_putchar('+');
+	}
 	else
-		return (1);
+	{
+		sign = -1;
+		_putchar('-');
+	}
+	return (sign);
 }

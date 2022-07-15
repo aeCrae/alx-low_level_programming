@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main -> prints out _putchar
- * Return: success is always 0.
+ * main -  print _putchar
+ * Description: use automatic variabl
+ * Return: always the 0
  */
+
 int main(void)
 {
 	_putchar('_');

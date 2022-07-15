@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * _isalpha -> The main emtry point
- * @c: A parameter
- * Return: return value
+ * _isalpha - I am checking islower
+ * @d : is the variable i wish to test
+ * Return: either 0 or 1
  */
-int _isalpha(int c)
+
+int _isalpha(int d)
 {
-	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	return ((d >= 96 && d <= 123) || (d >= 65 && d <= 90));
 }

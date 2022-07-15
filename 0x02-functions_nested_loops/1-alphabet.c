@@ -1,16 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet -> This is the entry point of the code
- * success always 0
+ * print_alphabet - print a letter from a to z
+ * Descriptin: I am still learning
+ * Return: Always 0 (Success)
  */
+
 void print_alphabet(void)
 {
-	int alphabet;
+	char f = 'a';
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	while (f <= 'z')
 	{
-		_putchar(alphabet);
+		_putchar(f);
+		f++;
 	}
 	_putchar('\n');
 }
