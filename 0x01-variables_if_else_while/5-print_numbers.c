@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * Main -print 1 to 10
+ * main -print 1 to 10
  *
  * Return: Always 0 (Success)
  */
