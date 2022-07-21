@@ -10,7 +10,7 @@ int main(void)
 	int c = 0;
 	int boy = 48;
 
-	while(c < 10);
+	while(c < 10)
 	{
 		c += boy;
 		putchar(c);
