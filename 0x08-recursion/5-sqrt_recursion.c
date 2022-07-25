@@ -4,8 +4,6 @@
  * _sqrt_recursion - This function finds the natural
  * square root of the number
  * @n: the number to obtain sqrt
- * @m: a temp storage
- * @s: the divisor
  * Return: returns the sqrt
  */
 int _sqrt(int, int);
@@ -17,7 +15,6 @@ int _sqrt_recursion(int n)
  * _sqrt - recursive square root
  * @n: number
  * @i: iterator
- *
  * Return: square root
  */
 int _sqrt(int n, int i)
