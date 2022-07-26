@@ -7,4 +7,4 @@
  * @n: an argument
  * Return: success always returns 0
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n);
