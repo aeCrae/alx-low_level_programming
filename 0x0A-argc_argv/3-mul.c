@@ -9,6 +9,11 @@
  */
 int main(int argc, char *argv[])
 {
+	if (2 < argc < 4)
+	{
+		puts("Error");
+		return (1);
+	}
 	int i;
 	int k;
 	int mul = 1;
